@@ -1,2 +1,5 @@
 # ignores all the embeddings models
 /data/embeddings
+
+#VENV
+/myvenv/
