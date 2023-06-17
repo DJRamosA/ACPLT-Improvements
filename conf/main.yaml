@@ -1,0 +1,7 @@
+data:
+  CPN120: ../data/raw_dataset/CPN120.csv
+  CPN27: ../data/raw_dataset/CPN27.csv
+
+nlp:
+  spanish: 'es_core_news_sm'
+  english: 'en_core_news_sm'
