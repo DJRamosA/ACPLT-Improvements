@@ -14,4 +14,6 @@ path_data:
   cpn120: ../data/raw_dataset/CPN120.csv
   cpn27: ../data/raw_dataset/CPN27.csv
 
+path_results:
+  grafics: ../data/results/LSA/Graphics
 
