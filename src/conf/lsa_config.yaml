@@ -1,16 +1,17 @@
 params:
-  kmeans: 500
-  vector_lenght: 300
-  random_state: 0
+  cpn27:
+    n_dim: 1200
+    random_state: 0
+  cpn120:
+    n_dim: 1780
+    random_state: 0
 
 enviroment:
   nlp: es_core_news_sm
   language: spanish
 
-
 path_data:
   cpn120: ../data/raw_dataset/CPN120.csv
   cpn27: ../data/raw_dataset/CPN27.csv
 
-path_embedding:
-  word2vec: ../data/embeddings/SBW-vectors-300-min5.bin.gz
+
