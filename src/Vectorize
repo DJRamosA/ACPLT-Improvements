@@ -1,7 +1,8 @@
 import numpy as np
+import gensim
 
 
-def to_vector(texto: str, model, embeddingLength: int):
+def to_vector(texto: str, model:gensim.models.keyedvectors.KeyedVectors, embeddingLength: int) -> np.array:
     """ 
     Receives a sentence string along with a word embedding model and 
     returns the vector representation of the sentence

@@ -7,7 +7,7 @@ from scipy.spatial import distance
 
 class AC_PLT:
 
-    def __init__(self, n_clusters = 500, vec_len=300, random_state=0):
+    def __init__(self, n_clusters:int = 500, vec_len:int = 300, random_state:int = 0):
         """
         n_clusters: number of cluster in the k-Means model
         """
@@ -23,7 +23,7 @@ class AC_PLT:
         ) 
         
         
-    def most_frequent(self, List): 
+    def most_frequent(self, List:list) -> list: 
         """
         Recives a list of words, and return the word most frequente of
         the list
@@ -35,7 +35,7 @@ class AC_PLT:
         return occurence_count.most_common(1)[0][0] 
 
 
-    def fit(self, train):
+    def fit(self, train: np.array) -> None:
         """
         Recives the train dataset and the number of clusters to train 
         the k-means model
@@ -63,7 +63,7 @@ class AC_PLT:
         df['KM_Prediction'] = df['KMeans'].map(self.KMeans_categories)
 
 
-    def get_distances(self, test):
+    def get_distances(self, test: np.array) -> None:
         """
         recives the test data to calculate the distances of each frase, return 
         a matrix with the distances sorted
@@ -95,7 +95,7 @@ class AC_PLT:
             self.topKS.iloc[:,j]=tempData[self.topk[:,j]]
 
 
-    def get_accuracies(self, test):
+    def get_accuracies(self, test: np.array) -> np.array:
         """
         Recives the test matrix and return the accuracies of the 
         diferents predictions
@@ -122,7 +122,7 @@ class AC_PLT:
         return accuracies
 
     
-    def transform(self, test):
+    def transform(self, test: np.array) -> np.array:
         """
         Recives two numpy bi-dimentionals arrays and returns the accuracy of the model
         """
@@ -130,7 +130,7 @@ class AC_PLT:
         self.set_labels()
         return self.get_accuracies(test)
     
-    def suggestions(self, test, n_codes):
+    def suggestions(self, test: np.array, n_codes: int) -> pd.DataFrame:
         self.get_distances(test)
         self.set_labels()
         return pd.DataFrame(

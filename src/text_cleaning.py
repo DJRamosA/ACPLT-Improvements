@@ -15,7 +15,7 @@ class TextCleaner():
         # for each token in the sentence add to the list if is not a punctuation
         return [t for t in self.nlp(text.lower()) if not t.is_punct]
         
-    def normalize(self, text: str) ->str:
+    def normalize(self, text: str) -> str:
         """
         Recive al list of string and return in one string without stop words
         """
@@ -26,7 +26,7 @@ class TextCleaner():
         # return the tokens in one string
         return(" ".join(words))
 
-    def lemmatize(self, text: str) ->str:
+    def lemmatize(self, text: str) -> str:
         """
         Receive al list of tokens and return in one string without stop words 
         and Lemmatized
@@ -38,6 +38,6 @@ class TextCleaner():
         # return the tokens in one string
         return(" ".join(lemmas))
 
-    def stemming(self, text: str) ->str:
+    def stemming(self, text: str) -> str:
         tokens = self.clean_text(text)
         return " ".join([self.stemmer.stem(str(t)) for t in tokens])
