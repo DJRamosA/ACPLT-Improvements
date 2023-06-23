@@ -1,5 +1,7 @@
 params:
-  kmeans: 500
+  kmeans: 
+    n_cluster: 500
+    tops: [0, 2, 4, 9, 49]
   vector_lenght: 300
   random_state: 0
 
