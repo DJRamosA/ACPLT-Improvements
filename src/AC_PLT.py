@@ -7,7 +7,18 @@ from scipy.spatial import distance
 
 class AC_PLT:
 
-    def __init__(self, n_clusters:int = 500, random_state:int = 0):
+    def __init__(
+            self, 
+            n_clusters:int = '500', 
+            init:str = 'k-means++', 
+            n_init='auto', 
+            tol:float= 1e-4,  
+            random_state:int = 0, 
+            algorithm:str = 'lloyd', 
+            copy_x:bool =True, 
+            max_iter:int =300,
+            verbose:int =0
+            ):
         """
         n_clusters: number of cluster in the k-Means model
         """
@@ -18,7 +29,13 @@ class AC_PLT:
         self.km = sklearn.cluster.KMeans(           # creates de k-means object
             n_clusters=self.n_clusters, 
             random_state=random_state,
-            n_init='auto'
+            init=init,
+            n_init=n_init,
+            algorithm=algorithm, 
+            copy_x=copy_x,
+            max_iter=max_iter,
+            tol=tol, 
+            verbose=verbose
         ) 
         
         
@@ -122,6 +139,11 @@ class AC_PLT:
         return accuracies
 
     
+    def set_params(self, **params): 
+        return self.km.set_params(**params)
+
+    def get_params(self, deep:bool=True): 
+        return self.km.get_params(deep=deep)
     # def get(self, X: np.ndarray, y: np.ndarray) -> np.ndarray:
     #     """
     #     Recives two numpy bi-dimentionals arrays and returns the accuracy of the model

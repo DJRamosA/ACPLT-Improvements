@@ -2,7 +2,7 @@ import numpy as np
 import gensim
 
 
-def to_vector(texto: str, model:gensim.models.keyedvectors.KeyedVectors, embeddingLength: int) -> np.array:
+def to_vector(texto: str, model:gensim.models.keyedvectors.KeyedVectors, embeddingLength: int) -> np.ndarray:
     """ 
     Receives a sentence string along with a word embedding model and 
     returns the vector representation of the sentence
