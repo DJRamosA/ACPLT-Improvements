@@ -140,7 +140,7 @@ class AC_PLT:
 
     
     def set_params(self, **params): 
-        return self.km.set_params(**params)
+        self.km.set_params(**params)
 
     def get_params(self, deep:bool=True): 
         return self.km.get_params(deep=deep)
