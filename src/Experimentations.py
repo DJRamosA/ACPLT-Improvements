@@ -69,9 +69,22 @@ class ParamSearch:
 
         return self
     
-    def __predicting(self, X_train:np.ndarray, t_train:np.ndarray, X_test:np.ndarray, t_test:np.ndarray):
-        ...
 
+    def to_csv(self, name_file:str, path:str = ''):
+        
+        params_values = np.array([list(d.values())[0] for d in self.cv_results_["params"]])
+        
+        temp = np.array([
+                params_values,
+                self.cv_results_["train_mean"],
+                self.cv_results_["train_std"],
+                self.cv_results_["test_mean"],
+                self.cv_results_["test_std"]]).T
+        
+        res = pd.DataFrame(temp, columns=["params", "train_mean", "train_std", "test_mean", "test_std"])
+
+        res.to_csv(path+name_file, index=False)
+        return self
 
 if __name__ == "__main__":
     from sklearn.naive_bayes import GaussianNB
@@ -84,4 +97,5 @@ if __name__ == "__main__":
 
     search = ParamSearch(model=proc, param_grid=parameters, n_folds=5)
     search.fit(iris.data, iris.target)
+    search.to_csv(r'C:/Users/dra98/OneDrive/Documentos/Trabajo/Doctorado/Codigo/src/tests/data.csv')
     print(search.cv_results_)

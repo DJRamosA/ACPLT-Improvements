@@ -3,3 +3,5 @@
 
 #VENV
 /myvenv/
+src/tests/
+src/__pycache__
