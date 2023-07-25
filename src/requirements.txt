@@ -1,0 +1,8 @@
+ipykernel
+pandas
+numpy
+scikit-learn
+spacy
+gensim
+plotnine
+patchworklib
