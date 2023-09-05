@@ -76,10 +76,10 @@ class ParamSearch:
         
             row=[
                 d,
-                mean_acc_train.mean(),
-                std_acc_train.std(),
-                mean_acc_test.mean(),
-                std_acc_test.std()
+                mean_acc_train[i],
+                std_acc_train[i],
+                mean_acc_test[i],
+                std_acc_test[i]
             ]
             
             with open(name_file, 'a', newline='') as f:

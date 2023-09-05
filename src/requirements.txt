@@ -6,3 +6,5 @@ spacy
 gensim
 plotnine
 patchworklib
+transformers
+sentence_transformers
