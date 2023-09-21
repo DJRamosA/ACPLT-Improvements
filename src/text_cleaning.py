@@ -21,7 +21,7 @@ class TextCleaner():
         """
         tokens = self.clean_text(text)
         # for each token if is not a stop word add the word to the list
-        words = [t.orth_ for t in tokens if not t.is_stop]
+        words = [t.orth_ for t in tokens]
 
         # return the tokens in one string
         return(" ".join(words))
@@ -33,7 +33,7 @@ class TextCleaner():
         """
         tokens = self.clean_text(text)
         # for each token if is not a stop word add the lemma of the word in the list
-        lemmas = [t.lemma_ for t in tokens if not t.is_stop]
+        lemmas = [t.lemma_ for t in tokens]
 
         # return the tokens in one string
         return(" ".join(lemmas))
@@ -41,3 +41,24 @@ class TextCleaner():
     def stemming(self, text: str) -> str:
         tokens = self.clean_text(text)
         return " ".join([self.stemmer.stem(str(t)) for t in tokens])
+    
+
+if __name__ == "__main__":
+    import pandas as pd
+    import numpy as np
+
+    dataset_name = "cpn27"
+
+    if dataset_name == "cpn27":
+        data = pd.read_csv("data/raw_dataset/CPN27.csv", delimiter=",")
+    elif dataset_name == "cpn120":
+        data = pd.read_csv("data/raw_dataset/CPN120.csv", delimiter=",")
+
+    Cln = TextCleaner("es_core_news_sm", "spanish")
+    func = Cln.lemmatize
+    data.iloc[:, 1] = data.iloc[:,1].apply(func)
+
+    if dataset_name == "cpn27":
+        data.to_csv("data/raw_dataset/lemmatize/CPN27_lemma.csv", index=False)
+    elif dataset_name == "cpn120":
+        data.to_csv("data/raw_dataset/lemmatize/CPN120_lemma.csv", index=False)

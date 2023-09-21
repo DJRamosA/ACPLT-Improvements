@@ -161,7 +161,7 @@ class AC_PLT:
     def predict(self, X: np.ndarray):
         self.get_distances(X)
         self.set_labels()
-        return np.reshape(self.topKS.iloc[:, :1], (1, -1))[0]
+        return self.topKS.iloc[:, 0]
                 
                 
     def get_inertia(self):
