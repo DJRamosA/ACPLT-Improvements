@@ -5,3 +5,4 @@
 /myvenv/
 src/tests/
 src/__pycache__
+.env
