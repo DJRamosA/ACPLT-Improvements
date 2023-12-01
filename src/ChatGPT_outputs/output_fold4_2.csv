@@ -1,0 +1,115 @@
+PROP: triunfo, CODE: éxito
+PROP: dedicación, CODE: esfuerzo
+PROP: deporte, CODE: actividad física
+PROP: rectitud, CODE: honradez
+PROP: profesional, CODE: experto
+PROP: no alerta, CODE: distraído
+PROP: confort, CODE: comodidad
+PROP: interés, CODE: curiosidad
+PROP: adquisición, CODE: compra
+PROP: privilegiar, CODE: priorizar
+PROP: respuesta, CODE: contestación
+PROP: educación, CODE: enseñanza
+PROP: sesgo, CODE: prejuicio
+PROP: cambio corporal, CODE: transformación física
+PROP: desplante, CODE: actitud
+PROP: destreza, CODE: habilidad
+PROP: manejo, CODE: control
+PROP: limitación, CODE: restricción
+PROP: ofensa, CODE: insulto
+PROP: enfrentamiento, CODE: conflicto
+PROP: agilidad/fuerza, CODE: destreza física
+PROP: actividades, CODE: tareas
+PROP: dote, CODE: habilidad natural
+PROP: compartir, CODE: colaborar
+PROP: individual, CODE: personal
+PROP: a gusto, CODE: cómodo
+PROP: adversidad, CODE: dificultad
+PROP: guía, CODE: orientación
+PROP: no espontaneo, CODE: planificado
+PROP: desorden, CODE: caos
+PROP: no autoestima, CODE: inseguridad
+PROP: características, CODE: atributos
+PROP: orden, CODE: organización
+PROP: chantaje, CODE: manipulación
+PROP: solidaridad, CODE: colaboración
+PROP: distintos, CODE: diferentes
+PROP: realización, CODE: logro
+PROP: honradez, CODE: honestidad
+PROP: regocijo, CODE: alegría
+PROP: cumplimiento, CODE: realización
+PROP: beneficios, CODE: ventajas
+PROP: no perdida, CODE: ganancia
+PROP: recompensa, CODE: premio
+PROP: alien, CODE: extraterrestre
+PROP: isp, CODE: proveedor de servicios de internet
+PROP: esfuerzo, CODE: dedicación
+PROP: no real, CODE: ficticio
+PROP: bien/mal, CODE: bueno/malo
+PROP: oportunidad, CODE: posibilidad
+PROP: aprendizaje, CODE: educación
+PROP: adicción, CODE: dependencia
+PROP: en contra, CODE: contrario
+PROP: diario , CODE: cotidiano
+PROP: impotencia, CODE: incapacidad
+PROP: seguridad, CODE: protección
+PROP: estamento, CODE: categoría
+PROP: suma, CODE: adición
+PROP: tristeza, CODE: melancolía
+PROP: anhelo, CODE: deseo
+PROP: sufrimiento, CODE: dolor
+PROP: exposición, CODE: presentación
+PROP: sugerencia, CODE: recomendación
+PROP: comer, CODE: alimentarse
+PROP: conformidad, CODE: aceptación
+PROP: forma, CODE: figura
+PROP: desarrollo, CODE: crecimiento
+PROP: causa, CODE: motivo
+PROP: guardias, CODE: vigilancia
+PROP: celos, CODE: envidia
+PROP: diccionario, CODE: léxico
+PROP: información, CODE: datos
+PROP: no seguridad, CODE: inseguridad
+PROP: facilidad, CODE: sencillez
+PROP: sentimientos, CODE: emociones
+PROP: duda, CODE: incertidumbre
+PROP: cerebro, CODE: mente
+PROP: castigo, CODE: penalización
+PROP: perjudicial, CODE: dañino
+PROP: no desconfianza, CODE: confianza
+PROP: éxito, CODE: logro
+PROP: estado, CODE: condición
+PROP: delincuencia, CODE: criminalidad
+PROP: evitación, CODE: evitar
+PROP: disminución, CODE: reducción
+PROP: sensación, CODE: percepción
+PROP: habilidades, CODE: destrezas
+PROP: análisis, CODE: estudio
+PROP: comprensión, CODE: entendimiento
+PROP: escasez, CODE: falta
+PROP: utilidad, CODE: beneficio
+PROP: ingreso, CODE: entrada
+PROP: control, CODE: dominio
+PROP: matemáticas, CODE: cálculos
+PROP: telefonía, CODE: comunicación telefónica
+PROP: crisis, CODE: problema
+PROP: sociedad, CODE: comunidad
+PROP: conveniencia, CODE: ventaja
+PROP: mostrar, CODE: exhibir
+PROP: estructura, CODE: organización
+PROP: constructivo, CODE: positivo
+PROP: malhechor, CODE: delincuente
+PROP: augurio, CODE: predicción
+PROP: bienestar, CODE: satisfacción
+PROP: estabilidad, CODE: equilibrio
+PROP: opción, CODE: alternativa
+PROP: posición, CODE: ubicación
+PROP: pacto, CODE: acuerdo
+PROP: amistad, CODE: compañerismo
+PROP: colaborar, CODE: trabajar juntos
+PROP: inestabilidad, CODE: desequilibrio
+PROP: desequilibrio, CODE: falta de equilibrio
+PROP: impaciencia, CODE: falta de paciencia
+PROP: forzar, CODE: obligar
+PROP: presión, CODE: estrés
+PROP: empujar, CODE: presionar

@@ -1,0 +1,358 @@
+PROP: sensorial,
+CODE: percepción
+
+PROP: drepesión,
+CODE: depresión
+
+PROP: pacifismo,
+CODE: paz
+
+PROP: no camino,
+CODE: inmovilidad
+
+PROP: desadaptación,
+CODE: desajuste
+
+PROP: irá,
+CODE: enojo
+
+PROP: no honestidad,
+CODE: deshonestidad
+
+PROP: falla,
+CODE: error
+
+PROP: vulnerabilidad,
+CODE: fragilidad
+
+PROP: desprotección,
+CODE: indefensión
+
+PROP: complicidad,
+CODE: colaboración
+
+PROP: mula,
+CODE: burro
+
+PROP: historia,
+CODE: pasado
+
+PROP: sobrepasar,
+CODE: superar
+
+PROP: equivocación,
+CODE: error
+
+PROP: no omitir,
+CODE: incluir
+
+PROP: ser,
+CODE: existir
+
+PROP: pobreza,
+CODE: falta de recursos
+
+PROP: frente en alto,
+CODE: orgullo
+
+PROP: profundidad,
+CODE: hondura
+
+PROP: odiado por pocos,
+CODE: antipatía
+
+PROP: Pinoccio,
+CODE: mentira
+
+PROP: cintas de seguridad,
+CODE: precaución
+
+PROP: anticonceptivo,
+CODE: prevención de embarazo
+
+PROP: marca,
+CODE: identificación
+
+PROP: Maslow,
+CODE: jerarquía de necesidades
+
+PROP: reintento,
+CODE: segunda oportunidad
+
+PROP: amabilidad,
+CODE: gentileza
+
+PROP: maestría,
+CODE: dominio
+
+PROP: tip,
+CODE: consejo
+
+PROP: dulces,
+CODE: golosinas
+
+PROP: no éxito,
+CODE: fracaso
+
+PROP: no animal,
+CODE: objeto
+
+PROP: variable,
+CODE: cambio
+
+PROP: componentes,
+CODE: partes
+
+PROP: impulso,
+CODE: motivación
+
+PROP: boda,
+CODE: matrimonio
+
+PROP: tener,
+CODE: poseer
+
+PROP: ambitos,
+CODE: áreas
+
+PROP: terrorismo,
+CODE: violencia
+
+PROP: genialidad,
+CODE: inteligencia
+
+PROP: juicio,
+CODE: opinión
+
+PROP: convencimiento,
+CODE: persuasión
+
+PROP: bomba,
+CODE: explosivo
+
+PROP: accidente,
+CODE: incidente
+
+PROP: vida,
+CODE: existencia
+
+PROP: prototipo,
+CODE: modelo
+
+PROP: codicia,
+CODE: avaricia
+
+PROP: mercado,
+CODE: comercio
+
+PROP: primera vez,
+CODE: debut
+
+PROP: escasez en la niñes,
+CODE: falta en la infancia
+
+PROP: tiempo determinado,
+CODE: temporalidad
+
+PROP: blandas,
+CODE: suaves
+
+PROP: trabajable,
+CODE: viable
+
+PROP: optención,
+CODE: obtención
+
+PROP: temor,
+CODE: miedo
+
+PROP: destacado,
+CODE: sobresaliente
+
+PROP: hobbies,
+CODE: pasatiempos
+
+PROP: correción,
+CODE: rectificación
+
+PROP: impredecible,
+CODE: incierto
+
+PROP: contención,
+CODE: contención
+
+PROP: gobernabilidad,
+CODE: estabilidad política
+
+PROP: properidad,
+CODE: riqueza
+
+PROP: pleno,
+CODE: completo
+
+PROP: disculpa,
+CODE: perdón
+
+PROP: antivirus,
+CODE: protección
+
+PROP: ojalá,
+CODE: deseo
+
+PROP: guía,
+CODE: orientación
+
+PROP: confiabilidad,
+CODE: fiabilidad
+
+PROP: enfrermedad,
+CODE: enfermedad
+
+PROP: carrera,
+CODE: profesión
+
+PROP: intento,
+CODE: prueba
+
+PROP: laboral,
+CODE: trabajo
+
+PROP: inminente,
+CODE: próximo
+
+PROP: entrenamiento,
+CODE: preparación
+
+PROP: neuronas,
+CODE: células nerviosas
+
+PROP: no todos,
+CODE: algunos
+
+PROP: b,
+CODE: segundo
+
+PROP: material,
+CODE: sustancia
+
+PROP: preestablecido,
+CODE: predeterminado
+
+PROP: sobrevaluación,
+CODE: exageración
+
+PROP: preservación,
+CODE: conservación
+
+PROP: evolución,
+CODE: desarrollo
+
+PROP: sentido,
+CODE: significado
+
+PROP: verificación,
+CODE: comprobación
+
+PROP: no asumir,
+CODE: negar
+
+PROP: sutil,
+CODE: delicado
+
+PROP: importante,
+CODE: relevante
+
+PROP: no acción,
+CODE: inacción
+
+PROP: puediente,
+CODE: capaz
+
+PROP: innovación,
+CODE: creatividad
+
+PROP: atreverse,
+CODE: arriesgarse
+
+PROP: profesores,
+CODE: docentes
+
+PROP: ciencias,
+CODE: disciplinas
+
+PROP: creible,
+CODE: confiable
+
+PROP: verdad/mentira,
+CODE: veracidad
+
+PROP: contrarrestar,
+CODE: neutralizar
+
+PROP: utilidades,
+CODE: beneficios
+
+PROP: premio,
+CODE: recompensa
+
+PROP: diferenciación,
+CODE: distinción
+
+PROP: guardias,
+CODE: vigilantes
+
+PROP: físico/psicológico,
+CODE: mente y cuerpo
+
+PROP: verde,
+CODE: color
+
+PROP: oscuridad,
+CODE: falta de luz
+
+PROP: resolución,
+CODE: solución
+
+PROP: temas,
+CODE: asuntos
+
+PROP: condición,
+CODE: estado
+
+PROP: contrato,
+CODE: acuerdo
+
+PROP: individuos,
+CODE: personas
+
+PROP: molestia,
+CODE: incomodidad
+
+PROP: contagio,
+CODE: propagación
+
+PROP: permitir,
+CODE: autorizar
+
+PROP: no bienestar,
+CODE: malestar
+
+PROP: lenguaje,
+CODE: comunicación
+
+PROP: confección,
+CODE: fabricación
+
+PROP: patrañas,
+CODE: mentiras
+
+PROP: catástrofes,
+CODE: desastres
+
+PROP: carga,
+CODE: peso
+
+PROP: arriba,
+CODE: encima
+
+PROP:

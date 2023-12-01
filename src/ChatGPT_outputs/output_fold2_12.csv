@@ -1,0 +1,90 @@
+PROP: favor, CODE: ayuda
+PROP: cariño, CODE: amor
+PROP: perjuicio, CODE: daño
+PROP: colegio, CODE: escuela
+PROP: capacidad, CODE: habilidad
+PROP: no discapacidad, CODE: habilidad
+PROP: no fracaso, CODE: éxito
+PROP: error, CODE: equivocación
+PROP: razonamiento, CODE: pensamiento
+PROP: barrera, CODE: obstáculo
+PROP: innato, CODE: natural
+PROP: reflexión, CODE: pensamiento
+PROP: tranquilidad, CODE: calma
+PROP: pago, CODE: dinero
+PROP: medición, CODE: medida
+PROP: respeto, CODE: consideración
+PROP: amenaza, CODE: peligro
+PROP: organización , CODE: orden
+PROP: pensamiento, CODE: idea
+PROP: trato, CODE: relación
+PROP: legal, CODE: legalidad
+PROP: sinceridad, CODE: honestidad
+PROP: felicidad, CODE: alegría
+PROP: no instinto, CODE: racionalidad
+PROP: no solución, CODE: problema
+PROP: mayor cantidad, CODE: abundancia
+PROP: crítica, CODE: opinión
+PROP: idea, CODE: pensamiento
+PROP: precaución, CODE: cuidado
+PROP: protección, CODE: seguridad
+PROP: virtud, CODE: cualidad
+PROP: creencia, CODE: fe
+PROP: religión, CODE: fe
+PROP: trastorno, CODE: problema
+PROP: ánimo, CODE: estado de ánimo
+PROP: llanto, CODE: lágrimas
+PROP: desempeño, CODE: rendimiento
+PROP: verdad, CODE: realidad
+PROP: regalo, CODE: obsequio
+PROP: factor, CODE: elemento
+PROP: conciencia, CODE: conocimiento
+PROP: aprovechar, CODE: utilizar
+PROP: sentimiento, CODE: emoción
+PROP: todos, CODE: todos
+PROP: atención, CODE: cuidado
+PROP: por abuelos, CODE: herencia
+PROP: ganar, CODE: triunfar
+PROP: aprecio, CODE: valoración
+PROP: corazón, CODE: amor
+PROP: sanción, CODE: castigo
+PROP: cualidad, CODE: característica
+PROP: venganza, CODE: revancha
+PROP: explicación, CODE: aclaración
+PROP: pureza, CODE: limpieza
+PROP: leyes, CODE: normas
+PROP: ventaja, CODE: beneficio
+PROP: vida laboral, CODE: trabajo
+PROP: mapa, CODE: plano
+PROP: agobio, CODE: estrés
+PROP: locura, CODE: demencia
+PROP: relación, CODE: vínculo
+PROP: negocios, CODE: empresas
+PROP: aferrar, CODE: agarrar
+PROP: desesperación, CODE: angustia
+PROP: descripción, CODE: explicación
+PROP: compromiso, CODE: responsabilidad
+PROP: orientación, CODE: dirección
+PROP: encaminar, CODE: dirigir
+PROP: enseñanza, CODE: educación
+PROP: incomodidad, CODE: molestia
+PROP: expectativa, CODE: esperanza
+PROP: mejorar, CODE: progresar
+PROP: conocimiento, CODE: sabiduría
+PROP: competencia, CODE: rivalidad
+PROP: calma, CODE: tranquilidad
+PROP: disyunción, CODE: separación
+PROP: incertidumbre, CODE: duda
+PROP: malestar, CODE: incomodidad
+PROP: enojo, CODE: ira
+PROP: influencia, CODE: poder
+PROP: emoción, CODE: sentimiento
+PROP: estado emocional, CODE: sentimiento
+PROP: adrenalina, CODE: excitación
+PROP: descripción, CODE: explicación
+PROP: secreto, CODE: confidencia
+PROP: pensamiento, CODE: idea
+PROP: académico, CODE: educativo
+PROP: tranquilidad, CODE: calma
+PROP: muerte, CODE: fallecimiento
+PROP: virus, CODE: enfermedad

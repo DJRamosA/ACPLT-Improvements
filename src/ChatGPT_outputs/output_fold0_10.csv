@@ -1,0 +1,368 @@
+PROP: repetición,
+CODE: repetir
+
+PROP: dependencia,
+CODE: depender
+
+PROP: mental,
+CODE: mente
+
+PROP: explicación,
+CODE: explicar
+
+PROP: injusticia,
+CODE: injusto
+
+PROP: señalar,
+CODE: señal
+
+PROP: no límite,
+CODE: ilimitado
+
+PROP: contagio,
+CODE: contagiar
+
+PROP: deuda,
+CODE: deber
+
+PROP: comentario,
+CODE: comentar
+
+PROP: reacción,
+CODE: reaccionar
+
+PROP: verosimilitud,
+CODE: verosímil
+
+PROP: justificación,
+CODE: justificar
+
+PROP: no sentir,
+CODE: insensible
+
+PROP: entregar,
+CODE: entrega
+
+PROP: claustrofobia,
+CODE: claustrofóbico
+
+PROP: personalidad,
+CODE: persona
+
+PROP: interés,
+CODE: interesante
+
+PROP: no correcto,
+CODE: incorrecto
+
+PROP: profesional,
+CODE: profesión
+
+PROP: duda,
+CODE: dudar
+
+PROP: no acuerdo,
+CODE: desacuerdo
+
+PROP: plenitud,
+CODE: pleno
+
+PROP: origen desconocido,
+CODE: desconocido
+
+PROP: exámen,
+CODE: examinar
+
+PROP: soñar,
+CODE: sueño
+
+PROP: siniestro,
+CODE: siniestro
+
+PROP: constricción,
+CODE: constreñir
+
+PROP: mandato,
+CODE: mandar
+
+PROP: fama,
+CODE: famoso
+
+PROP: edonismo,
+CODE: hedonismo
+
+PROP: desempeño,
+CODE: desempeñar
+
+PROP: afecto,
+CODE: afectar
+
+PROP: mecanismo de defensa,
+CODE: defensa
+
+PROP: estilo de vida,
+CODE: estilo
+
+PROP: respuesta,
+CODE: responder
+
+PROP: como sea,
+CODE: cualquier
+
+PROP: enseñanza,
+CODE: enseñar
+
+PROP: regaño,
+CODE: regañar
+
+PROP: obligación,
+CODE: obligar
+
+PROP: condicional,
+CODE: condición
+
+PROP: arte,
+CODE: artístico
+
+PROP: meditación,
+CODE: meditar
+
+PROP: no a salvo,
+CODE: inseguro
+
+PROP: unánime,
+CODE: unanimidad
+
+PROP: confusión amor,
+CODE: confuso
+
+PROP: manipulación,
+CODE: manipular
+
+PROP: suma,
+CODE: sumar
+
+PROP: sometimiento,
+CODE: someter
+
+PROP: secuestro,
+CODE: secuestrar
+
+PROP: completar,
+CODE: completo
+
+PROP: todo el día,
+CODE: diario
+
+PROP: envidia,
+CODE: envidiar
+
+PROP: esperanza,
+CODE: esperar
+
+PROP: racional,
+CODE: razonable
+
+PROP: formal/informal,
+CODE: formal
+
+PROP: leal,
+CODE: lealtad
+
+PROP: aumento,
+CODE: aumentar
+
+PROP: trauma,
+CODE: traumático
+
+PROP: agravante,
+CODE: agravar
+
+PROP: enciclopedia,
+CODE: enciclopédico
+
+PROP: duradera,
+CODE: duradero
+
+PROP: conclusión,
+CODE: concluir
+
+PROP: perjuicio,
+CODE: perjudicar
+
+PROP: vida cotidiana,
+CODE: cotidiano
+
+PROP: detallar,
+CODE: detallado
+
+PROP: propensión,
+CODE: propenso
+
+PROP: obsesión,
+CODE: obsesionar
+
+PROP: rasgos,
+CODE: rasgo
+
+PROP: direccionar,
+CODE: dirigir
+
+PROP: pesame,
+CODE: pesar
+
+PROP: auge,
+CODE: auge
+
+PROP: inequidad,
+CODE: inequidad
+
+PROP: nacimiento,
+CODE: nacer
+
+PROP: complot,
+CODE: conspiración
+
+PROP: máximo,
+CODE: máximo
+
+PROP: prohibición,
+CODE: prohibir
+
+PROP: herida,
+CODE: herir
+
+PROP: creatividad,
+CODE: creativo
+
+PROP: admiración,
+CODE: admirar
+
+PROP: grave,
+CODE: gravedad
+
+PROP: progreso,
+CODE: progresar
+
+PROP: cronológico,
+CODE: cronología
+
+PROP: no credibilidad,
+CODE: increíble
+
+PROP: esencia,
+CODE: esencial
+
+PROP: idealización,
+CODE: idealizar
+
+PROP: repercusiones,
+CODE: repercusión
+
+PROP: franqueza,
+CODE: franco
+
+PROP: desgracia,
+CODE: desgraciado
+
+PROP: emergencia,
+CODE: emergencia
+
+PROP: gusto,
+CODE: gustar
+
+PROP: insatisfacción,
+CODE: insatisfactorio
+
+PROP: obtención,
+CODE: obtener
+
+PROP: no salud,
+CODE: insalubre
+
+PROP: natural,
+CODE: naturaleza
+
+PROP: no escape,
+CODE: atrapado
+
+PROP: mucho/poco,
+CODE: cantidad
+
+PROP: perfeccionamiento,
+CODE: perfeccionar
+
+PROP: femenino,
+CODE: mujer
+
+PROP: expresión,
+CODE: expresar
+
+PROP: coleccionar,
+CODE: colección
+
+PROP: profundizar,
+CODE: profundo
+
+PROP: privilegio,
+CODE: privilegiado
+
+PROP: salir de aprietos,
+CODE: solucionar
+
+PROP: ocultar,
+CODE: oculto
+
+PROP: pocas personas,
+CODE: pocos
+
+PROP: subir peso,
+CODE: engordar
+
+PROP: hiperactividad,
+CODE: hiperactivo
+
+PROP: júbilo,
+CODE: jubiloso
+
+PROP: asertividad,
+CODE: asertivo
+
+PROP: trazado,
+CODE: trazar
+
+PROP: supremo,
+CODE: supremacía
+
+PROP: expectativas,
+CODE: expectativa
+
+PROP: resiliencia,
+CODE: resiliente
+
+PROP: consenso,
+CODE: consensuar
+
+PROP: gestión,
+CODE: gestionar
+
+PROP: asombro,
+CODE: asombrar
+
+PROP: cordura,
+CODE: cuerdo
+
+PROP: aclaración,
+CODE: aclarar
+
+PROP: objeto,
+CODE: objeto
+
+PROP: hacer,
+CODE: hacer
+
+PROP: perseverancia,
+CODE: perseverar
+
+PROP: grito,
+CODE: gritar
