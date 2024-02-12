@@ -47,7 +47,7 @@ if __name__ == "__main__":
     import pandas as pd
     import numpy as np
 
-    dataset_name = "cpn120"
+    dataset_name = "cpn27"
 
     if dataset_name == "cpn27":
         data = pd.read_csv("data/raw_dataset/CPN27.csv", delimiter=",")
@@ -59,6 +59,6 @@ if __name__ == "__main__":
     data.iloc[:, 1] = data.iloc[:,1].apply(func)
 
     if dataset_name == "cpn27":
-        data.to_csv("data/raw_dataset/lemmatize/CPN27_lemma.csv", index=False)
+        data.to_csv("data/raw_dataset/normalize/CPN27_normalize.csv", index=False)
     elif dataset_name == "cpn120":
         data.to_csv("data/raw_dataset/normalize/CPN120_normalize.csv", index=False)
