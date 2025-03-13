@@ -1,0 +1,18 @@
+# ignores all the embeddings models
+/data/embeddings
+data/raw_dataset/canine
+
+# ignore large files
+src/notebooks/classification_top5/cpn120_canine_raw.csv
+src/notebooks/classification_top5/cpn27_canine_raw.csv
+data/raw_dataset/canine/cpn120_canine_raw.csv
+data/raw_dataset/canine/cpn27_canine_raw.csv
+
+#VENV
+/myvenv/
+src/tests/
+src/__pycache__
+src/functions/__pycache__
+.env
+.mrx-link-logs
+.vscode

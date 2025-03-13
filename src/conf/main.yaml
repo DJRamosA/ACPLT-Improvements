@@ -1,0 +1,59 @@
+params:
+  kfold: 5
+  kmeans: 
+    n_cluster: 
+      cpn27: 550
+      cpn120: 1750
+    tops: [0, 2, 4, 9, 49]
+
+  vector_length: 
+    word2vec: 300
+    sentence_embedding: 768
+  random_state: 0
+
+enviroment:
+  nlp: es_core_news_sm
+  language: spanish
+
+
+path:
+  raw: 
+    cpn120: ../../../data/raw_dataset/CPN120.csv
+    cpn27: ../../../data/raw_dataset/CPN27.csv
+
+  normalize:
+    cpn27: ../../../data/raw_dataset/normalize/CPN27_normalize.csv
+    cpn120: ../../../data/raw_dataset/normalize/CPN120_normalize.csv
+
+
+  normalize_wo_stop:
+    cpn27: ../../../data/raw_dataset/normalize/CPN27_normalize_wo_stop.csv
+    cpn120: ../../../data/raw_dataset/normalize/CPN120_normalize_wo_stop.csv
+
+  lemmatize:
+    cpn27: ../../../data/raw_dataset/lemmatize/CPN27_lemma.csv
+    cpn120: ../../../data/raw_dataset/lemmatize/CPN120_lemma.csv
+
+  lemmatize_wo_stop:
+    cpn27: ../../../data/raw_dataset/lemmatize/CPN27_lemmatize_wo_stop.csv
+    cpn120: ../../../data/raw_dataset/lemmatize/CPN120_lemmatize_wo_stop.csv
+
+
+path_embedding_canine: 
+  cpn27:
+    normalize: ../../../data/raw_dataset/canine/cpn27_canine_norm.csv
+    lemmatize: ../../../data/raw_dataset/canine/cpn27_lemma_canine_raw.csv
+  cpn120:
+    normalize: ../../../data/raw_dataset/canine/cpn120_canine_norm.csv
+    lemmatize: ../../../data/raw_dataset/canine/cpn120_lemma_canine_raw.csv
+
+path_embedding:
+  word2vec: ../../../data/embeddings/SBW-vectors-300-min5.bin.gz
+
+
+path_results:
+  BETO: ../../../data/results/BETO/
+  CANINE: ../../../data/results/CANINE/
+  LaBSE: ../../../data/results/LaBSE/
+  E5: ../../../data/results/E5/
+  Word2Vec: ../../../data/results/Word2Vec/
