@@ -1,6 +1,6 @@
 # ignores all the embeddings models
 /data/embeddings
-data/raw_dataset/canine
+data/raw_dataset/canine/
 
 # ignore large files
 src/notebooks/classification_top5/cpn120_canine_raw.csv
